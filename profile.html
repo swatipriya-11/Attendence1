@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Table</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <center>
+        <table id="attendanceTable" border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th id="subject">Subject</th>
+                    <!-- Days 1 to 31 -->
+                    <script>
+                        for (let i = 1; i <= 31; i++) {
+                            document.write(`<th id="num">${i}</th>`);
+                        }
+                    </script>
+                    <th id="num">T</th>
+                    <th id="num">P</th>
+                    <th id="num">A</th>
+                    <th id="num">C</th>
+                    <th id="num">%</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td id="subject">Math</td></tr>
+                <tr><td id="subject">English</td></tr>
+                <tr><td id="subject">Python</td></tr>
+                <tr><td id="subject">Web Design</td></tr>
+                <tr><td id="subject">Chemistry</td></tr>
+            </tbody>
+        </table>
+        <br><br>
+        <input type="submit" value="Save" id="save">
+        <input type="submit" value="Clear" id="clear">
+    </center>
+
+    <script src="profile.js"></script>
+</body>
+</html>
+

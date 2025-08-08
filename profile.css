@@ -1,0 +1,63 @@
+body {
+    background-image:url('background1.jpg');
+    font-family: Arial, sans-serif;
+}
+
+#table {
+    padding:10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: auto;
+    width: 95%;
+    max-width: 1200px;
+    border: 5px groove rgb(223, 128, 144);
+    border-collapse: collapse;
+    background-color: #fffafc;
+}
+
+th, td {
+    border: 3px groove rgb(223, 128, 144);
+    padding: 5px;
+    text-align: center;
+}
+
+#subject {
+    border: 5px groove rgb(223, 128, 144);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f8c9d7;
+}
+
+#num {
+    border: 3px groove rgb(223, 128, 144);
+    font-weight: bold;
+    background-color: #fce2eb;
+}
+
+select {
+    padding: 3px;
+    font-size: 14px;
+    border: 2px solid rgb(223, 128, 144);
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#save, #clear {
+    border: 5px groove rgb(223, 128, 144);
+    border-radius: 50px;
+    color: #500915;
+    cursor: pointer;
+    background-color: rgb(245, 138, 192);
+    font-weight: bolder;
+    padding: 10px 20px;
+    margin: 15px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+#save:hover, #clear:hover {
+    background-color: rgb(223, 128, 144);
+    color: white;
+}
+

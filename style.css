@@ -1,0 +1,68 @@
+body{
+    font-size: 20px;
+    color: rgb(146, 46, 62);
+    background-image:url('background1.jpg');
+    font-weight:bold;
+    
+
+}
+
+
+.form{
+    justify-content: center;
+    align-items: center;
+    border: 30px groove pink;
+    width:200px;
+    border-radius: 50px;
+    padding:40px;
+    margin:150px 40px;
+    background-color: rgb(219, 144, 144);
+}
+
+#username{
+    border:10px groove pink;
+    border-radius: 50px;
+    color: rgb(146, 46, 62);
+    cursor:pointer;
+    background-color: rgb(219, 144, 144) ;
+    font-weight: bolder;
+   
+}
+
+#password{
+    border:10px groove pink;
+    border-radius: 50px;
+    color: rgb(146, 46, 62);
+    cursor:pointer;
+    background-color: rgb(219, 144, 144) ;
+    font-weight: bolder;
+   
+}
+#email{
+    border:10px groove pink;
+    border-radius: 50px;
+    color: rgb(146, 46, 62);
+    cursor:pointer;
+    background-color: rgb(219, 144, 144) ;
+    font-weight: bolder;
+   
+}
+#login{
+    border:10px groove pink;
+    border-radius: 50px;
+    color: rgb(146, 46, 62);
+    cursor:pointer;
+    background-color: rgb(219, 144, 144) ;
+    font-weight: bolder;
+   
+}
+#login:hover{
+    background-color: rgb(218, 124, 174);
+    color: rgb(184, 51, 117);
+    transform:scale(1.1);
+}
+/* #me{
+    
+    font-size: 10px;
+} */
+
